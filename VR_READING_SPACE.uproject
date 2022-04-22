@@ -49,9 +49,17 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "SteamController",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamShared",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
-		"Android"
+		"WindowsNoEditor"
 	]
 }
