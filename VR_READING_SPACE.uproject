@@ -33,15 +33,6 @@
 			]
 		},
 		{
-			"Name": "SteamVR",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Win32",
-				"Win64",
-				"Linux"
-			]
-		},
-		{
 			"Name": "OculusOpenXR",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -51,12 +42,21 @@
 			]
 		},
 		{
-			"Name": "SteamController",
+			"Name": "SteamShared",
 			"Enabled": true
 		},
 		{
-			"Name": "SteamShared",
+			"Name": "FMODStudio",
 			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux"
+			]
 		}
 	],
 	"TargetPlatforms": [
